@@ -19,12 +19,12 @@ public class Pharmacy {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        try{
-            org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.launchBeautyEyeLNF();
-        }
-        catch(Exception e){
-            System.out.println(e);
-        }
+//        try{
+//            org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.launchBeautyEyeLNF();
+//        }
+//        catch(Exception e){
+//            System.out.println(e);
+//        }
         UIManager.put("OptionPane.messageFont", new Font("Arial", Font.BOLD, 18));
         UIManager.put("OptionPane.buttonFont", new Font("Arial", Font.PLAIN, 12));
         new LoginScreen().setVisible(true);
